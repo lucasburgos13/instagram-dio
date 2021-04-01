@@ -20,7 +20,7 @@ body{
 .instagram-wrapper{
     display:flex;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
     width:60%;
     height: 100vh;
 }
@@ -41,7 +41,7 @@ body{
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
-    width: 60%;
+    width: 50%;
     min-height: 34rem;
 }
 
@@ -53,12 +53,11 @@ body{
     background-color: #ffffff;
     width: 100%;
     padding: 1.3rem 0;
-    border: 3px solid lightgray;
+    border: 1px solid lightgray;
 }
 
 .group:nth-child(1){
     min-height: 19rem;
-
 }
 
 .profile-photo{
@@ -70,8 +69,8 @@ body{
 }
 
 .profile-photo img{
-    height: 7em;
-    width: 7em;
+    height: 6em;
+    width: 6em;
 }
 
 .instagram-logo{
